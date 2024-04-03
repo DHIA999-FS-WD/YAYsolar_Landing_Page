@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+}
+.bgOrange {
+  background: orange;
+  padding: 2rem;
+}
+nav a:hover,
+a:focus {
+  transition: 0.2s;
+  font-size: 1.2rem;
+  color: #f58432;
+}
+.hero {
+  min-height: 80vh;
+  background: url(/assets/img/pexels-diego-vivanco-16586151.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutUs {
+  font-size: 1.5rem;
+}
+
+.produits {
+  background: #f58432;
+}
+
+.servises {
+  background-color: #aad4e8;
+}
+
+.contactUs {
+  background: #e7f7e2;
+  font-size: 1.5rem;
+}
+
+.contactUs h1 {
+  font-size: 2.5rem;
+}
+
+.upTop {
+  z-index: 10000;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  background: orange;
+  color: white;
+}
